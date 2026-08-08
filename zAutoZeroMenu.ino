@@ -23,7 +23,7 @@ AutoZeroParams azParams = {
   .speedFast   = 12.0f,
   .useBno      = 1,      // BNO actif par defaut
   .useGps      = 1,      // GPS actif par defaut
-  .beta        = 0.05f,  // correction douce : 5% de l'erreur par cycle
+  .beta        = 0.3f,  // correction douce : 5% de l'erreur par cycle
   .ident       = 0xA202  // bumpe pour forcer reinit EEPROM avec nouveaux champs
 };
 
